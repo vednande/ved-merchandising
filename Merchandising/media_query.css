@@ -1,0 +1,212 @@
+/* Media Query starts here */
+@media screen and (max-width: 1400px) {
+    .txt h3{
+        font-size: 20px;
+    }
+    #mobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .grid-rone-colthree{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        width: auto;
+    }
+    .flex-hsw{
+        flex-direction: column;
+        gap: 0;
+    }
+    .img img {
+        width: 358px;
+        height: 300px;
+        object-fit: contain;
+    }
+    .flex-1{
+        margin: 2rem 0 0 0;
+    }
+    .txt{
+        width: 60%;
+        align-items: center;
+    }
+    .mac{
+        width: 25%;
+    }
+    #mobile{
+        display: none;
+    }
+    .item-3{
+        grid-column: 1/-1;
+        margin: 2rem 0 0 0;
+    }
+} 
+@media screen and (max-width: 950px) {
+    .flex-r3{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #arrowNoSeen{
+        display: inline-block;
+        padding: 0 10px 0 0 ;
+    }
+    .f-col h3{
+        font-size: 22px;
+    }
+    .tagline img{
+        margin: 2rem 0 0 0;
+    }
+    #line{
+        display: block;
+    }
+    .nav-links , .loginBookDemo{
+        display: none;
+    }
+    .mac{
+        width: 35%;
+    }
+    #notInMob{
+        display: none;
+    }
+}
+@media screen and (max-width: 760px) {
+    .tagline img {
+        width: 60%;
+    }
+    .grid-rone-colthree{
+        row-gap: 25px;
+    }
+    .item-3{
+        grid-column: 1/-1;
+        /* margin: 2rem 0 0 0; */
+    }
+    .company-logos{
+        gap: 2rem;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .flex-col {
+        align-items: center;
+        justify-content: center;
+    }
+    .social-links{
+        width: 300px;
+        margin: 1.2rem auto;
+        /* flex-direction: row; */
+    }
+    .flex-col{
+        border-bottom: 2px solid;
+    }
+    .contact-info{
+        border-bottom: none;
+    }
+    .mac{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .grid-rone-colthree{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 35px;
+    }
+    .company-logos{
+        gap: 1.5rem;
+    }
+    .heads h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .tagline p{
+        width: auto;
+        margin: 20px 10px 10px 0;
+    }
+    .tagline img{
+        width: 75%;
+    }
+    .heading h1{
+        font-size: 30px;
+    }
+    .txt h2 {
+        font-size: 27px;
+    }
+    #five{
+        padding: 1rem 2.5rem;
+        margin: 1rem 0;
+    }
+    .mac{
+        width: 80%;
+    }
+    .txt h2, p {
+        margin: 20px 0;
+    }
+    .txt h3 {
+        font-size: 18px;
+    }
+    .contact-info{
+        margin-top: 1.2rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .tagline p{
+        width: auto;
+        margin: 20px 10px 10px 0;
+    }
+    .tagline img{
+        width: 75%;
+    }
+    .img img {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    .company-logos{
+        display: none;
+    }
+    .tagline{
+        padding: 2rem 0rem .5rem 0;
+    }
+    .tagline img {
+        width: 75%;
+        object-fit: contain;
+    }.heading p {
+        width: auto;
+        margin: 1rem auto;
+    }
+    #bad{
+        padding: 15px 20px;
+    }
+    #ask{
+        padding: 15px 20px;
+    }
+    .f-col{
+        width: 235px;
+        gap: 5px;
+        align-items: flex-start;
+    }
+    .flex-2, .flex-3{
+        padding: 0.5rem 0 1rem 0;
+    }
+    .img img {
+        width: 265px;
+        height: 150px;
+        object-fit: contain;
+    }
+    .flex-5 .img{
+        margin: 1.5rem 0 0 0;
+    }
+    .benefits h2 {
+        margin: 0 5rem;
+        font-size: 2.5rem;
+    }
+    /* .f-one::after{
+        content: "ved nande";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20px;
+        height: 20px;
+        color: #fff;
+        background-color: red;
+    } */
+}

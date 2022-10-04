@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeNan -- Online visual merchandising</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="internal_links.css">
+    <link rel="stylesheet" href="media_query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    
+    <div class="container">
+
+        <!-- Navbar goes here -->
+        <div class="navbar">
+            <nav>
+                <div class="logo">
+                    <img src="Images/default.png" alt="Logo">
+                </div>
+                <div class="nav-links">
+                    <ul> 
+                        <li><a href="">Home</a></li>
+                        <li><a href="#internalHIW">How it works</a></li>
+                        <li><a href="#internalbenefits">Benefits</a></li>
+                        <li><a href="#internalcontactus">Contact Us</a></li>
+                    </ul>
+                </div> 
+                <div class="loginBookDemo"> 
+                    <button id="login">log in</button>
+                    <button id="badsmll">Book a Demo</button>
+                </div> 
+                <div id="line">
+                    <div class="line1" id="rightGhum"></div>
+                    <div class="line1" id="leftGhum"></div>
+                    <div class="line1" id="matDikh"></div>
+                </div>
+            </nav>
+        </div> 
+        
+        <!-- Mobile one responsiveness navbar -->
+        <div id="mobile">
+            <ul>  
+                <li><a href="#" onclick="cls()">Home</a></li>
+                <li><a href="#internalHIW" onclick="cls()">How it works</a></li>
+                <li><a href="#internalbenefits" onclick="cls()">Benefits</a></li>
+                <li><a href="#internalcontactus" onclick="cls()">Contact Us</a></li>
+                <li><a href="#">log in</a> </li>
+                <li><a href="#">Book and Demo</a> </li>
+            </ul>
+        </div>
+
+        <!-- Hero page goes here -->
+        <section id="one" class="hero">
+            <div class="tagline">
+                <h1>Online visual</h1>
+                <h1>merchandising</h1> 
+                <p>Visual Merchandising Tool for your Online Store! Improve the product sorting and increase conversion rate.</p>                
+                <div class="buttons">
+                    <a href="#"><button id="bad">Book a Demo</button></a>
+                    <a href="#"><button id="ask">Ask a Question</button></a>
+                </div>
+                <img src="Images/default.png" alt="How it works">
+                <div class="text">
+                    NO Coding needed, Plug-&-Play.
+                </div>
+                <div class="company-logos">
+                    <img src="Images/default.png" alt="">
+                    <img src="Images/default.png" alt="">
+                    <img src="Images/default.png" alt="">
+                    <img src="Images/default.png" alt="">
+                    <img src="Images/default.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="two">
+            <div class="content">
+                <div class="heading">
+                    <h1>Sort products across all categories</h1>
+                    <h1>pages like never before</h1>
+                </div>
+                <div class="grid-rone-colthree">
+                    <div class="item item-1">
+                        <img src="Images/img1-removebg-preview.png" alt="Image 1">
+                        <h4>Get started in minutes</h4>
+                        <p>It's easy and quick to get started.</p>
+                        <p>NO coding needed, plug and play.</p>
+                    </div>
+                    <div class="item item-2">
+                        <img src="Images/img2.png" alt="Image 2">
+                        <h4>Set sorting rules</h4>
+                        <p>Use flexible and smart customization of</p>
+                        <p>product display on category pages.</p>
+                    </div> 
+                    <div class="item item-3">
+                        <img src="Images/img3.png" alt="Image 3">
+                        <h4>Increase conversion rate</h4>
+                        <p>Watch how the conversion rate of your </p>
+                        <p>store grows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="internalHIW"></div>
+
+        <section id="three">
+            <div class="content">
+                <div class="heading">
+                    <h1>How Sortler works</h1>
+                    <p>Sortler is a cloud based tool for merchandiser and eCommerce professionals.</p>
+                </div>
+
+                <!-- Flex one -->
+                <div class="flex-hsw flex-1">
+                    <div class="txt">
+                        <h2>Drag and Drop catalog management</h2>
+                        <p>Use the Drag and Drop function to sort your products in the most intutive, quickest way.</p>
+                        <p>Set scores for products by adding numbers, SKUs with higher scores will be displayed on top of the category pages.</p>
+                    </div>
+                    <div class="img">
+                        <img src="Images/dragAndDrop.png" alt="image">
+                    </div>
+                </div>
+
+                <!-- Flex two -->
+                <div class="flex-hsw flex-2">       
+                    <div class="txt"> 
+                        <h2></h2>
+                        <h2>Achieve a certain vareity on <br> your catalog pages </h2>
+                        <p>Manage display of product groups per category pages:</p>
+                        <ul>
+                            <li>Specify the maximun number of identical product groups per pages: subcategories, brands attributes(like color,style or type).</li>
+                            <li>Hide and add the desired products or product groups on the category page.</li>
+                        </ul>
+                    </div>
+                    <div class="img">
+                        <img src="Images/catalog.jpg" alt="image">
+                    </div>
+                </div>
+
+                <!-- Flex three -->
+                <div class="flex-hsw flex-3">       
+                    <div class="txt"> 
+                        <h2>Control poor-selling products</h2>
+                        <p>Sortler provides flexible features for the management of your low-selling items.</p>
+                        <div class="track">  
+                            <button class="btn-click-track">
+                                <h3>Tracking low-selling items 	&#8595</h3>
+                            </button> 
+                            <!-- &#8593 -->
+                            <p class="para-1">Use a convenient filter to see all low-selling items in your assortment. Knowing the situation, you can take appropriate measures in time to prevent possible financial damage.</p>
+                        </div> 
+                        <div class="raiseItemPosition">
+                            <button class="btn-click-rip"> 
+                                <h3>Raising the item position to the top. &#8595</h3> 
+                            </button> 
+                            <p class="para-2">Use a convenient filter to see all low-selling items in your assortment. Knowing the situation, you can take appropriate measures in time to prevent possible financial damage.</p> 
+                        </div> 
+                        <div class="discount">
+                            <button class="btn-click-discount">
+                                <h3>Applying discount &#8595</h3>
+                            </button>
+                            <p class="para-3">Use a convenient filter to see all low-selling items in your assortment. Knowing the situation, you can take appropriate measures in time to prevent possible financial damage.</p>
+                        </div>
+
+                    </div> 
+                    <div class="img">
+                        <img src="Images/sellyourproduct.png" alt="image">
+                    </div>
+                </div>
+
+                <!-- Flex four -->
+                <div class="flex-hsw flex-4">       
+                    <div class="txt"> 
+                        <h2>Create rules of low-stock <br> and out-of-stack products</h2>
+                        <p>Show certain amount of products with low stack per page. Or move out of stock products donw the catalog.</p>
+                        
+                    </div>
+                    <div class="img">
+                        <img src="https://t4.ftcdn.net/jpg/02/29/53/55/360_F_229535522_pz7UpLnnhN7wtogeY7X94MRROoK9Ozw4.jpg" alt="image">
+                    </div>
+                </div>
+
+                <!-- Flex five --> 
+                <div class="flex-hsw flex-5">       
+                    <div class="txt"> 
+                        <h2>Create and manage labels <br>flexibly</h2>
+                        <p>Create new labels in several clicks, manage the display and prioritize them on all catalog pages.</p>
+                    </div>
+                    <div class="img">
+                        <img src="Images/saleTypes.png" alt="image">
+                    </div>
+                </div>
+
+
+            </div> 
+        </section>
+
+        <div id="internalbenefits"></div>
+
+        <!-- Section four -->
+        <section id="four">
+            <div class="benefits">
+                <h2>Benefits</h2>
+                <div class="flex-r3">
+                    <div class="f-one f-col">
+                        <h3> <span id="arrowNoSeen">&#8594</span> Compatibility</h3>
+                        <p>Sortler supports all popular eCommerce solutons, including Magento, Shopify, WebCommerce, BigCommerce.</p>
+                    </div>
+                    <div class="f-two f-col">
+                        <h3> <span id="arrowNoSeen">&#8594</span>  Simplified Merchandising</h3>
+                        <p>Your employees, work faster and the less time they spend on online visual merchandising tasks.</p>
+                    </div>
+                    <div class="f-three f-col">
+                        <h3> <span id="arrowNoSeen">&#8594</span>  No Coding Required</h3>
+                        <p>Everything is designed in such a way as to put the smart sorting system into operation without delay</p>
+                    </div>
+                </div>
+                <div class="flex-r3">
+                    <div class="f-one f-col">
+                        <h3> <span id="arrowNoSeen">&#8594</span>  Built-in Emulator</h3>
+                        <p>Sortler provides you with a special emulator that shows all changes before they are applied to your live website.</p>
+                    </div>
+                    <div class="f-two f-col">
+                        <h3> <span id="arrowNoSeen">&#8594</span>  Backup Feature</h3>
+                        <p>Our visual product sorting tool has a backup feature to undo the changes made. So you actually risk nothing.</p>
+                    </div>
+                    <div class="f-three f-col">
+                        <h3> <span id="arrowNoSeen">&#8594</span>  Round-the-clock Support</h3>
+                        <p>Being in touch 24/7, we're ready to answer your question in real-time, whenever you need.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section five -->
+        <section id="five"> 
+            <div class="heads">  
+                <h1>All eCommerce CMS platforms supported</h1>
+                <p>Magento 2, Shopify, WooCommerce, BigCommerce, <br>Opencart and more.</p>
+            </div>
+            <div class="support-logos">
+                <img src="Images/magento.png" alt="Magento">
+                <img src="Images/shopify.png" alt="Shopify">
+                <img src="Images/woocommerce.jpg" alt="Woo Commerce">
+                <img src="Images/bigcommerce.png" alt="Big Commerce">
+                <img src="Images/opencart.png" alt="Open Cart">
+            </div>
+        </section>
+    </div> 
+
+    <div id="internalcontactus"></div>
+
+    <!-- Footer goes here -->
+    <footer>
+        <h1>Contact Us</h1>
+        <div class="footer-content">
+            <div class="mac flex-col">
+                <h3>More about the company</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt minima dolore esse molestiae vitae earum, similique repellendus consequuntur nihil, doloribus eligendi id velit corporis error nobis nostrum ex deserunt exercitationem.</p>
+            </div>
+            <div class="social-links flex-col">
+                <div class="ftip">
+                    <a href="#" class="fa fa-facebook" style="font-size: 20px"></a> 
+                    <p id="notInMob">Follow us on FaceBook</p>
+                </div> 
+                <div class="ftip">
+                    <a href="#" class="fa fa-twitter" style="font-size: 20px"></a>
+                    <p id="notInMob">Follow us on Twitter</p>
+                </div>
+                <div class="ftip">
+                    <a href="#" class="fa fa-youtube" style="font-size: 20px"></a>
+                    <p id="notInMob">Subscribe us on Youtube</p>
+                </div>
+                <div class="ftip">
+                    <a href="#" class="fa fa-instagram" style="font-size: 20px"></a> 
+                    <p id="notInMob">Follow us on Instagram</p>
+                </div>
+            </div>
+            <div class="contact-info flex-col">
+                <h3>Contact Information</h3>
+                <p>Plot Number 39 <br>Arjun Park Beltarodi <br>Nagpur, Maharashtra</p> 
+                <a href="tel:+919524755711">9524755711</a>
+                <a href="mailto:vednande10@gmail.com">Mail us here</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
